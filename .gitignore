@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual env
+.venv/
+
+# Runtime artifacts
+logs/*.log
+
+# Generated model binaries
+models/*.pt
+models/*.onnx
+!models/.gitkeep
+
+# Generated demo frames (binary)
+data/demo_dataset/frames/*.png
+!data/demo_dataset/frames/.gitkeep

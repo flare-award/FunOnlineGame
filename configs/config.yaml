@@ -1,0 +1,31 @@
+capture_region:
+  left: 0
+  top: 0
+  width: 1280
+  height: 720
+capture_fps: 10
+inference_fps: 10
+image_size: [96, 96]
+grayscale: false
+action_list: [idle, forward, backward, left, right, jump, interact]
+action_keys:
+  idle: ""
+  forward: w
+  backward: s
+  left: a
+  right: d
+  jump: space
+  interact: e
+key_hold_ms: 70
+anti_spam_ms: 120
+confidence_threshold: 0.65
+safe_mode: true
+human_in_the_loop: true
+only_demo: true
+model_path: models/tinycnn_scripted.pt
+onnx_path: models/tinycnn.onnx
+log_file: logs/autopilot.log
+game_window_title_contains: null
+training_mode: false
+inference_mode: true
+demo_dataset_dir: data/demo_dataset
