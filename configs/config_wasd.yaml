@@ -1,0 +1,8 @@
+action_keys:
+  idle: ""
+  forward: w
+  backward: s
+  left: a
+  right: d
+  jump: space
+  interact: e
